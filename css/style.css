@@ -1,0 +1,50 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+
+/* layout */
+.flex {
+    display: flex;
+}
+
+header {
+    background-color: #add8e6;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav {
+    background-color: #daa520;
+    width: 70%;
+    justify-content: space-between;
+}
+
+
+ul {
+    justify-content: center;
+    list-style: none;
+    margin: 0 auto;
+    flex: 0 0 60%;
+    gap: 10px;
+}
+
+/* utilities */
+.border {
+    border: 1px dashed black;
+
+}
+
+.fl-20 {
+    flex: 20%
+}
+
+.txt-end {
+    text-align: end;
+}
