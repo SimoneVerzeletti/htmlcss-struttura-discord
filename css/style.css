@@ -22,7 +22,7 @@ header {
 
 nav {
     background-color: #daa520;
-    width: 70%;
+    width: 60%;
     justify-content: space-between;
 }
 
@@ -35,6 +35,58 @@ ul {
     gap: 10px;
 }
 
+
+.container {
+    background-color: #ee82ee;
+    height: 80%;
+    width: 50%;
+}
+
+.container2 {
+    background-color: #228b22;
+    height: 80%;
+    width: 60%;
+}
+
+.container-txt {
+    background-color: #1e90ff;
+    height: 80%;
+    width: 60%;
+}
+
+
+.immagine {
+    background-color: #ffc0cb;
+    width: 40%;
+}
+
+.sct-1 {
+    background-color: #00008b;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sct-2 {
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sct-3 {
+    background-color: #d3d3d3;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sct-4 {
+    background-color: #d3d3d3;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+}
+
 /* utilities */
 .border {
     border: 1px dashed black;
@@ -43,6 +95,10 @@ ul {
 
 .fl-20 {
     flex: 20%
+}
+
+.flex-end {
+    justify-content: end;
 }
 
 .txt-end {
