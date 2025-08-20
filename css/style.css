@@ -26,7 +26,6 @@ nav {
     justify-content: space-between;
 }
 
-
 ul {
     justify-content: center;
     list-style: none;
@@ -34,7 +33,6 @@ ul {
     flex: 0 0 60%;
     gap: 10px;
 }
-
 
 .container {
     background-color: #ee82ee;
@@ -54,6 +52,10 @@ ul {
     width: 60%;
 }
 
+.container-foot {
+    width: 60%;
+    height: 500px;
+}
 
 .immagine {
     background-color: #ffc0cb;
@@ -87,20 +89,77 @@ ul {
     justify-content: center;
 }
 
-/* utilities */
-.border {
-    border: 1px dashed black;
+.sct-foot {
+    padding-bottom: 40px;
+    padding-top: 10px;
+    border-bottom: 2px solid gray;
+}
+
+footer {
+    background-color: #23272a;
 
 }
 
-.fl-20 {
+.color-coral {
+    background-color: #f08080;
+
+}
+
+.color-lsg {
+    background-color: #20b2aa;
+    /*Light Sea Green*/
+}
+
+.color-marine {
+    background-color: #7fffd4;
+    /*Aquamarine*/
+}
+
+/* utilities */
+.border {
+    border: 1px dashed black;
+}
+
+.border-w {
+    border: 1px dashed white;
+}
+
+.flex-20 {
     flex: 20%
+}
+
+.flex-center {
+    justify-content: center;
 }
 
 .flex-end {
     justify-content: end;
 }
 
+.flex-btw {
+    justify-content: space-between;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.flex-grow2 {
+    flex-grow: 2;
+}
+
+.py-10 {
+    padding: 10px 0;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
 .txt-end {
     text-align: end;
+}
+
+.wid-60 {
+    width: 60%;
 }
